@@ -102,9 +102,6 @@
 
 .header {
     background: #FFF;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .header__wrapper {
@@ -289,15 +286,6 @@
 .about__advantage__img {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    border-radius: 20px;
-}
-
-.about__advantage:first-child .about__advantage__img {
-    background: url(../images/about__advantage__img1.svg) no-repeat left 31px top 27px #fff;
-}
-
-.about__advantage:last-child .about__advantage__img {
-    background: url(../images/about__advantage__img2.svg) no-repeat left 26px top 24px #fff;
 }
 
 .about__advantage__title {
