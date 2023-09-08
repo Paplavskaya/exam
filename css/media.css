@@ -137,6 +137,54 @@
 }
 
 @media (max-width: 768px) {
+    .promo__wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    
+    .promo__item {
+        width: calc(400px - 110px);
+    }
+    
+    .about__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about__title {
+        max-width: 100%;
+    }
+
+    .about__advantages {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .about__advantage {
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+    }
+    
+    .about__advantage__img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    
+    .about__advantage__title {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: start;
+    }
+    
+    .about__advantage__text {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        text-align: initial;
+    }
+    
+    
     .offer__wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, auto);
