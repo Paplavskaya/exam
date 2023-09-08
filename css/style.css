@@ -681,6 +681,7 @@
     padding: 100px 80px 100px 70px;
     margin-top: 31px;
     margin-bottom: 86px;
+    border-radius: 30px;
 
     display: grid;
     grid-template-columns: 1fr auto auto;

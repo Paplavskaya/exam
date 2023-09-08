@@ -29,3 +29,30 @@
         background-size: 50%;
     }
 }
+
+@media (max-width: 1110px) {
+    .testimonial__wrapper {
+        grid-template-columns: auto;
+    }
+
+    .testimonial__text {
+        max-width: 576px;
+    }
+
+    .testimonial__line {
+        width: 576px;
+    }
+
+    .testimonial__items {
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(2, 250px);
+        column-gap: 50px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .contact__form {
+        padding: 100px 30px;
+        grid-template-columns: auto auto auto;
+    }
+}
