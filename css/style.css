@@ -113,6 +113,7 @@
     gap: 100px;
 }
 
+.logo__link,
 .logo__img,
 .info__social__link,
 .social__img {
@@ -159,7 +160,6 @@
     list-style: none;
 }
 
-.logo__link,
 .header__nav__item,
 .nav__link,
 .span,
